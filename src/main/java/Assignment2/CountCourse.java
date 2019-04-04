@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class CountCourse implements Runnable {
+public class CountCourse implements Runnable,Patternmatch {
 
     String textFromPage;
     //String textFromPage = "";
@@ -19,14 +19,18 @@ public class CountCourse implements Runnable {
     }
      @Override
     public void run() {
-                String pattern = "\\w{4}\\d";
-                Pattern r = Pattern.compile(pattern);
-                Matcher m = r.matcher(textFromPage);
-                int count = 0;
-                while (m.find())
-                    count++;
-                System.out.println("Course count "+count);
 
         }
+
+    @Override
+    public void match() {
+        String pattern = "\\w{4}\\d";
+        Pattern r = Pattern.compile(pattern);
+        Matcher m = r.matcher(textFromPage);
+        int count = 0;
+        while (m.find())
+            count++;
+        System.out.println("Course count "+count);
     }
+}
 

@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true">  
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Assignment2.PDFScan" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/PDFScan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="129" x="164" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Assignment2.App" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/App.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="333" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Assignment2.ShowSTIW" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/ShowSTIW.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="126" x="486" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Assignment2.CountCourse" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/CountCourse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="126" x="652" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Assignment2.ListSOC" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/ListSOC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="126" x="818" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Assignment2.CountDate" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/CountDate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="126" x="984" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Assignment2.CountSOC" project="243777-STIW3054-A182-A2" 
+    file="/243777-STIW3054-A182-A2/src/main/java/Assignment2/CountSOC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="126" x="1150" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
