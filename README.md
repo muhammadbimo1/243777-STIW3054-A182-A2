@@ -5,11 +5,11 @@ Matric No. 243777
 
 ## Introduction
 This is the Assigment 2 of STIW3054 Realtime Programming. In this assigment i have to retrive the information of the pdf which is this semester's final exam schedule using ITEXT as library to parse the PDF file into a readable format and :
--Calculate the total number of course that being finaled
--Calculate the total number of days of final exam occurs
--List of courses from SOC that exist in this list
--Calculate the number of courses from SOC
--Display the information of STIW3054 (Bil, Code, Course, date and time).
+- Calculate the total number of course that being finaled
+- Calculate the total number of days of final exam occurs
+- List of courses from SOC that exist in this list
+- Calculate the number of courses from SOC
+- Display the information of STIW3054 (Bil, Code, Course, date and time).
 
 ## Result/Output
 ```
@@ -72,7 +72,20 @@ Process finished with exit code 0
 ## UML Class Diagram
 ![Drag Racing](https://github.com/muhammadbimo1/243777-STIW3054-A182-A2/blob/master/ClassDiagram.png)
 
-YouTube Presentation
+## YouTube Presentation
+https://youtu.be/kHQanQHLeSU
+
+## References
+- iText Team (2012 December).iText Core. Retrieved from https://mvnrepository.com/artifact/com.itextpdf/itextpdf
+- MKYong (2013).How to calculate date and time difference in Java. Retrieved from https://www.mkyong.com/java/how-to-calculate-date-time-difference-in-java/
+
+- JavaTPoint. Java String to Date. Retrieved from https://www.javatpoint.com/java-string-to-date
+- freeformatter.com. Java Regular Expression Tester. Retrieved from https://www.freeformatter.com/java-regex-tester.html
+- 4castle(2017) Create array of regex matches. Retrieved from https://stackoverflow.com/questions/6020384/create-array-of-regex-matches
 
 
-References
+
+
+
+
+
