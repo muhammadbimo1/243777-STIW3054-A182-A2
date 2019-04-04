@@ -24,6 +24,7 @@ public class CountDate implements Runnable, Patternmatch {
     }
     @Override
     public void run() {
+        match();
     }
 
     @Override

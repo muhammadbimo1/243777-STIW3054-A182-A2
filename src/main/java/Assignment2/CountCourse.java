@@ -19,7 +19,7 @@ public class CountCourse implements Runnable,Patternmatch {
     }
      @Override
     public void run() {
-
+match();
         }
 
     @Override

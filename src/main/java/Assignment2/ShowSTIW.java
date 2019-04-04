@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ShowSTIW implements Runnable {
+public class ShowSTIW implements Runnable,Patternmatch {
 
 
     String textFromPage;
@@ -20,18 +20,22 @@ public class ShowSTIW implements Runnable {
 
     @Override
     public void run() {
+            match();
+    }
+
+    @Override
+    public void match() {
 
         String found = "";
 
-            String pattern = "(\\d{1,3}.  STIW3054 .* \\d{1,2}/\\d{1,2}/\\d{4} \\d{2}:\\d{2})";
-            Pattern r = Pattern.compile(pattern);
-            Matcher m = r.matcher(textFromPage);
-            while (m.find()){
-                found += ("\n")+m.group();
-            }
+        String pattern = "(\\d{1,3}.  STIW3054 .* \\d{1,2}/\\d{1,2}/\\d{4} \\d{2}:\\d{2})";
+        Pattern r = Pattern.compile(pattern);
+        Matcher m = r.matcher(textFromPage);
+        while (m.find()){
+            found += ("\n")+m.group();
+        }
 
-            System.out.println(found);
-
+        System.out.println(found);
     }
 }
 
