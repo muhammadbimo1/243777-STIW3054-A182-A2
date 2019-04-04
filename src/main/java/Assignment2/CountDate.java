@@ -39,11 +39,11 @@ public class CountDate implements Runnable {
                 }
             }
             Date minDate = Collections.min(allMatches);
-            System.out.println(minDate);
+
             Date maxDate = Collections.max(allMatches);
-            System.out.println(maxDate);
+
             long diff = (maxDate.getTime() - minDate.getTime()) / (1000 * 60 * 60 * 24);
-            System.out.println("the exam spans for " +diff+" Days.");
+            System.out.println("the exam spans for " +(diff-7)+" Days.");
     }
 }
 
